@@ -9,7 +9,7 @@ import Chart from "./components/Chart";
 
 const App = () => {
   const [data, setData] = useState([]);
-  const [selectedTab, setSelectedTab] = useState("1 Minutes");
+  const [selectedTab, setSelectedTab] = useState("1 Minute");
   const [isLoading, setIsLoading] = useState(false);
   const [weekData, setWeekData] = useState([]);
 
